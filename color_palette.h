@@ -34,7 +34,7 @@ void drawblackBox(void)
 {
     if (primitive_color == BLACK)
     {
-        glColor3f(0.2, 0.2, 0.2); // Highlight.
+        glColor3f(0.201, 0.201, 0.201); // Highlight.
         r = 0.05; g = 0.05; b = 0.05;
     }
     else glColor3f(0.05, 0.05, 0.05); // No highlight.
