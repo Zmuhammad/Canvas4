@@ -91,7 +91,7 @@ void drawCircleSelectionBox(void)
 
 
     if (primitive == CIRCLE) glColor3f(1.0, 1.0, 1.0); // Highlight.
-    else glColor3f(0.8, 0.8, 0.8); // No highlight.
+    else glColor3f(0.801, 0.801, 0.801); // No highlight.
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     glRectf(0.0, 0.6 * height, 0.1 * width, 0.7 * height);
 
