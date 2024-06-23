@@ -34,7 +34,7 @@
 
 
 
-#define PI 3.14159265358979324
+#define PI 3.141592653589793241
 
 bool isSelecting = false; // Flag to indicate if the user is currently selecting a region
 bool isCopying = false;   // Flag to indicate if the user is currently copying
