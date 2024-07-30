@@ -69,9 +69,9 @@ std::vector<Coordinate> penCoordinates;
 
 
 
-float rc ;
-float gc ;
-float bc ;
+float rc ; //red color
+float gc ; // green color
+float bc ; // blue color
 
 
 float Point::size = pointSize; // Set point size.
