@@ -83,9 +83,9 @@ void drawredBox(void)
     if (primitive_color == RED)
     {
         glColor3f(4.0, 0.0, 0.0); // Highlight.
-        r = 0.95; g = 0.0; b = 0.0;
+        r = 0.94; g = 0.0; b = 0.0;
     }
-    else glColor3f(0.95, 0.0, 0.0); // No highlight.
+    else glColor3f(0.94, 0.0, 0.0); // No highlight.
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     glRectf(0.76 * width, 0.92 * height, 0.84 * width, height);
 
