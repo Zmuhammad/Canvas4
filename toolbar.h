@@ -27,7 +27,7 @@ static int isGrid = 1; // Is there grid?
 void drawPointSelectionBox(void)
 {
     if (primitive == POINT) glColor3f(1.0, 1.0, 1.0); // Highlight.
-    else glColor3f(0.8, 0.8, 0.8); // No highlight.
+    else glColor3f(0.81, 0.81, 0.81); // No highlight.
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     glRectf(0.0, 0.9 * height, 0.1 * width, height);
 
