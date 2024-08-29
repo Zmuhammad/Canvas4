@@ -138,7 +138,7 @@ void drawString(const std::string& str, float x, float y)
 void drawBox(void)
 {
     if (primitive == PEN) glColor3f(1.0, 1.0, 1.0); // Highlight.
-    else glColor3f(0.8, 0.8, 0.8); // No highlight.
+    else glColor3f(0.7, 0.7, 0.7); // No highlight.
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     glRectf(0.0, 0.5 * height, 0.1 * width, 0.6 * height);
 
