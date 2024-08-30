@@ -51,10 +51,6 @@ int windowWidth = 800;   // Width of the window
 int windowHeight = 600;  // Height of the window
 
 
-using namespace std;
-
-
-
 // Use the STL extension of C++.
 using namespace std;
 
