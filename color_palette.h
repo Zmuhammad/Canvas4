@@ -60,7 +60,7 @@ void drawwhiteBox(void)
     {
 
         glColor3f(1.0, 1.0, 1.0); // Highlight.
-        r = 0.95; g = 0.95; b = 0.95;
+        r = 0.94; g = 0.94; b = 0.94;
     }
     else glColor3f(0.95, 0.95, 0.95); // No highlight.
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
